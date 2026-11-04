@@ -185,21 +185,12 @@ Debido a que el circuito equivalente contiene dos fuentes de voltaje, se aplica 
 
 Para esta configuración, la relación entre las variables del circuito conduce a:
 
-$$
-C_p\frac{dF_{s1}(t)}{dt} =
-C_s\frac{d\left[F(t)-F_{s1}(t)\right]}{dt}
-+
-\frac{F(t)-F_{s1}(t)}{R}
-$$
+$C_p\frac{dF_{s1}(t)}{dt} = C_s\frac{d\left[F(t)-F_{s1}(t)\right]}{dt} + \frac{F(t)-F_{s1}(t)}{R}$ 
 
 Aplicando la transformada de Laplace, con condiciones iniciales nulas: 
 
 $$
-C_p s F_{s1}(s) =
-
-C_s s\left[F(s)-F_{s1}(s)\right]
-+
-\frac{F(s)-F_{s1}(s)}{R}
+C_p s F_{s1}(s) = C_s s\left[F(s)-F_{s1}(s)\right] + \frac{F(s)-F_{s1}(s)}{R}
 $$
 
 
