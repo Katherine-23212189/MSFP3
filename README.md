@@ -12,7 +12,7 @@ El caso de estudio representa el **sistema musculoesquelético** mediante un mod
 **Institución:** Tecnológico Nacional de México / Instituto Tecnológico de Tijuana  
 **Asignatura:** Modelado de Sistemas Fisiológicos  
 **Programa:** Ingeniería Biomédica  
-**Estudiante:** Katherine Coria Camacho · 23212189 · l23212189@tectijuana.edu.mx
+**Estudiante:** Katherine Coria Camacho · 23212189 · l23212189@tijuana.tecnm.mx
 
 **Repositorio de la asignatura:** [MSFP3 — GitHub](https://github.com/Katherine-23212189/MSFP3)
 
