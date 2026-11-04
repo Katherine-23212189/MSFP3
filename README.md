@@ -1,4 +1,4 @@
-[[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=Katherine-23212189/MSFP3)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=Katherine-23212189/MSFP3)
 
 # Práctica 3 — Modelo y control del sistema musculoesquelético
 
@@ -15,6 +15,7 @@ El caso de estudio representa el **sistema musculoesquelético** mediante un mod
 **Estudiante:** Katherine Coria Camacho · 23212189 · l23212189@tectijuana.edu.mx
 
 **Repositorio de la asignatura:** [MSFP3 — GitHub](https://github.com/Katherine-23212189/MSFP3)
+
 **Sede:** Blvd. Alberto Limón Padilla s/n, Tijuana, C. P. 22454, B. C., México.
 
 ---
@@ -122,11 +123,13 @@ $$
 x(t)=x_1(t)+x_2(t)
 $$
 
+
 La fuerza total se distribuye entre las dos ramas, por lo que:
 
 $$
 F_0(t)=F_{s1}(t)+F_{s2}(t)
 $$
+
 
 Si el elemento de compliancia en serie $C_s$ presenta un desplazamiento $x_1(t)$, la deformación del amortiguador está asociada con la diferencia entre los desplazamientos de las ramas. Esta relación se utiliza para establecer las ecuaciones del modelo.
 
@@ -166,11 +169,13 @@ $$
 x(t)=x_1(t)+x_2(t)
 $$
 
+
 De manera equivalente, la fuerza aplicada se distribuye entre las dos ramas:
 
 $$
 F_0(t)=F_{s1}(t)+F_{s2}(t)
 $$
+
 
 ### 2. Aplicación del principio de superposición
 
@@ -188,6 +193,7 @@ C_s\frac{d\left[F(t)-F_{s1}(t)\right]}{dt}
 \frac{F(t)-F_{s1}(t)}{R}
 $$
 
+
 Aplicando la transformada de Laplace, con condiciones iniciales nulas:
 
 $$
@@ -198,6 +204,7 @@ C_s s\left[F(s)-F_{s1}(s)\right]
 \frac{F(s)-F_{s1}(s)}{R}
 $$
 
+
 Agrupando los términos que contienen $F_{s1}(s)$:
 
 $$
@@ -205,6 +212,7 @@ $$
 =
 \left(C_s s+\frac{1}{R}\right)F(s)
 $$
+
 
 Por lo tanto, la función de transferencia correspondiente a la primera contribución es:
 
@@ -214,6 +222,7 @@ $$
 \frac{C_s R s+1}{R(C_p+C_s)s+1}
 $$
 
+
 #### Circuito 2. Se apaga la fuente $F(t)$
 
 Para la segunda configuración se considera la relación entre las fuentes:
@@ -221,6 +230,7 @@ Para la segunda configuración se considera la relación entre las fuentes:
 $$
 F_0(t)=\alpha F(t)
 $$
+
 
 La ecuación del circuito queda expresada como:
 
@@ -232,6 +242,7 @@ R\frac{dx(t)}{dt}
 \frac{1}{C_p+C_s}\int x(t)\,dt
 $$
 
+
 La contribución de la fuerza en esta rama se representa mediante:
 
 $$
@@ -239,6 +250,7 @@ F_{s2}(t)
 =
 \frac{1}{C_p+C_s}\int x(t)\,dt
 $$
+
 
 Aplicando la transformada de Laplace, con condiciones iniciales nulas:
 
@@ -248,11 +260,13 @@ $$
 R s X(s)+\frac{X(s)}{(C_p+C_s)s}
 $$
 
+
 y
 
 $$
 F_{s2}(s)=\frac{X(s)}{(C_p+C_s)s}
 $$
+
 
 Al despejar la relación entre la segunda contribución y la entrada, se obtiene:
 
@@ -262,6 +276,7 @@ $$
 -\frac{\alpha}{R(C_p+C_s)s+1}
 $$
 
+
 ### 3. Función de transferencia del sistema
 
 La respuesta total se obtiene sumando las contribuciones de las dos configuraciones:
@@ -269,6 +284,7 @@ La respuesta total se obtiene sumando las contribuciones de las dos configuracio
 $$
 F_s(s)=F_{s1}(s)+F_{s2}(s)
 $$
+
 
 Sustituyendo las expresiones anteriores:
 
@@ -280,6 +296,7 @@ F_s(s)
 \frac{\alpha}{R(C_p+C_s)s+1}F(s)
 $$
 
+
 Por lo tanto, la función de transferencia del sistema musculoesquelético es:
 
 $$
@@ -290,6 +307,7 @@ $$
 {R(C_p+C_s)s+1}
 }
 $$
+
 
 [Volver al contenido](#contenido)
 
@@ -317,6 +335,7 @@ $$
 {R(C_p+C_s)s+1}
 $$
 
+
 La combinación de estos elementos determina la respuesta del modelo ante la fuerza aplicada.
 
 ### 2. Error en estado estacionario
@@ -335,6 +354,7 @@ s\left[
 \right]
 $$
 
+
 Sustituyendo la función de transferencia del sistema:
 
 $$
@@ -348,11 +368,13 @@ e_{ss}
 \right]
 $$
 
+
 Por lo tanto:
 
 $$
 \boxed{e_{ss}=\alpha}
 $$
+
 
 ### 3. Estabilidad en lazo abierto
 
@@ -362,11 +384,13 @@ $$
 R(C_p+C_s)s+1=0
 $$
 
+
 El polo del sistema está dado por:
 
 $$
 \lambda=-\frac{1}{R(C_p+C_s)}
 $$
+
 
 Para valores positivos de $R$, $C_p$ y $C_s$, el polo se encuentra en el semiplano izquierdo del plano complejo. Por lo tanto, el sistema es estable en lazo abierto.
 
@@ -442,6 +466,7 @@ $$
 e(t)=r(t)-y(t)
 $$
 
+
 Donde:
 
 - $r(t)$ representa la señal de referencia.
@@ -456,6 +481,7 @@ $$
 u(t)=k_Pe(t)+k_I\int_0^t e(\tau)\,d\tau+k_D\frac{de(t)}{dt}
 $$
 
+
 Donde:
 
 - $k_P$ corresponde a la ganancia proporcional.
@@ -467,6 +493,7 @@ En el dominio de Laplace, la función de transferencia del controlador se expres
 $$
 K(s)=k_P+\frac{k_I}{s}+k_Ds
 $$
+
 
 ### 3. Sintonización
 
