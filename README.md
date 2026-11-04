@@ -154,15 +154,14 @@ En esta analogía, las conexiones mecánicas en paralelo se representan mediante
 [Volver al contenido](#contenido)
 
 ---
-<a id="analogia"></a>
+<a id="diagrama"></a>
 ## Diagrama del sistema musculoesquelético
 
 A continuación, se presenta el diagrama correspondiente al modelo musculoesquelético utilizado para el desarrollo de la práctica.
 
-![Diagrama del sistema musculoesquelético](Imagenes/Diagrama Musculoesqueletico.png)
+![Diagrama del sistema musculoesquelético](Imagenes/Diagrama%20Musculoesqueletico.png)
 
 [Volver al contenido](#contenido)
-
 ---
 
 <a id="modelo"></a>
