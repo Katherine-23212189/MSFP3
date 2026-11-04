@@ -15,6 +15,7 @@ El caso de estudio representa el **sistema musculoesquelético** mediante un mod
 **Estudiante:** Katherine Coria Camacho · 23212189 · l23212189@tectijuana.edu.mx
 
 **Repositorio de la asignatura:** [MSFP3 — GitHub](https://github.com/Katherine-23212189/MSFP3)
+
 **Sede:** Blvd. Alberto Limón Padilla s/n, Tijuana, C. P. 22454, B. C., México.
 
 ---
