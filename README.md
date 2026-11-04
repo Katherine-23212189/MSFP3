@@ -15,7 +15,6 @@ El caso de estudio representa el **sistema musculoesquelético** mediante un mod
 **Estudiante:** Katherine Coria Camacho · 23212189 · l23212189@tectijuana.edu.mx
 
 **Repositorio de la asignatura:** [MSFP3 — GitHub](https://github.com/Katherine-23212189/MSFP3)
-
 **Sede:** Blvd. Alberto Limón Padilla s/n, Tijuana, C. P. 22454, B. C., México.
 
 ---
@@ -55,7 +54,7 @@ Posteriormente, se utiliza la **analogía fuerza-voltaje** para obtener un circu
 
 Finalmente, se incorpora el análisis del comportamiento del sistema y el diseño de un controlador PID, con el propósito de estudiar y comparar las respuestas obtenidas mediante las diferentes representaciones.
 
-**Palabras clave:** sistema musculoesquelético; modelo viscoelástico; analogía fuerza-voltaje; resistencia; compliancia; controlador PID; MATLAB; Simulink; Python; modelado de sistemas fisiológicos.
+**Palabras clave:** Sistema musculoesquelético; Modelado matemático; Función de transferencia; Analogía electromecánica; Control fisiológico.
 
 [Volver al contenido](#contenido)
 
