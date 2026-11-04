@@ -27,20 +27,21 @@ El caso de estudio representa el **sistema musculoesquelético** mediante un mod
 2. [Competencia y objetivos](#objetivos)
 3. [Relación con el temario](#temario)
 4. [Modelo físico y analogía eléctrica](#analogia)
-5. [Formulación matemática](#modelo)
-6. [Análisis temporal y de estabilidad](#analisis)
-7. [Señales de entrada y condiciones de simulación](#senales)
-8. [Implementación en MATLAB y Simulink](#matlab)
-9. [Control en lazo cerrado y sintonización PID](#pid)
-10. [Reproducción en Python](#python)
-11. [Implementación del controlador](#laboratorio)
-12. [Resultados y verificación cruzada](#resultados)
-13. [Flujo de trabajo](#flujo)
-14. [Actividades del estudiante](#actividades)
-15. [Estructura del repositorio](#estructura)
-16. [Requisitos](#requisitos)
-17. [Reproducibilidad y entregables](#reproducibilidad)
-18. [Referencias](#referencias)
+5. [Diagrama del sistema musculoesquelético](#diagrama)
+6. [Formulación matemática](#modelo)
+7. [Análisis temporal y de estabilidad](#analisis)
+8. [Señales de entrada y condiciones de simulación](#senales)
+9. [Implementación en MATLAB y Simulink](#matlab)
+10. [Control en lazo cerrado y sintonización PID](#pid)
+11. [Reproducción en Python](#python)
+12. [Implementación del controlador](#laboratorio)
+13. [Resultados y verificación cruzada](#resultados)
+14. [Flujo de trabajo](#flujo)
+15. [Actividades del estudiante](#actividades)
+16. [Estructura del repositorio](#estructura)
+17. [Requisitos](#requisitos)
+18. [Reproducibilidad y entregables](#reproducibilidad)
+19. [Referencias](#referencias)
 
 ---
 
@@ -153,6 +154,14 @@ En esta analogía, las conexiones mecánicas en paralelo se representan mediante
 [Volver al contenido](#contenido)
 
 ---
+<a id="analogia"></a>
+## Diagrama del sistema musculoesquelético
+
+A continuación, se presenta el diagrama correspondiente al modelo musculoesquelético utilizado para el desarrollo de la práctica.
+
+![Diagrama del sistema musculoesquelético](Imagenes/Diagrama Musculoesqueletico.png)
+
+[Volver al contenido](#contenido)
 
 ---
 
