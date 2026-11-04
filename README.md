@@ -128,7 +128,7 @@ $$
 La fuerza total se distribuye entre las dos ramas, por lo que:
 
 $$
-F_0(t)=F_{s1}(t)+F_{s2}(t)
+F_s(t)=F_{s1}(t)+F_{s2}(t)
 $$
 
 
