@@ -162,6 +162,7 @@ A continuación, se presenta el diagrama correspondiente al modelo musculoesquel
 ![Diagrama del sistema musculoesquelético](Imagenes/Diagrama%20Musculoesqueletico.png)
 
 [Volver al contenido](#contenido)
+
 ---
 
 <a id="modelo"></a>
