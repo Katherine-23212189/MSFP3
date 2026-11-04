@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Práctica 3: Modelo y control del sistema
+  musculoesquelético
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Katherine
+    family-names: Coria
+    email: l23212189@tijuana.tecnm.mx
+    affiliation: TecNM / IT Tijuana
+repository-code: 'https://github.com/Katherine-23212189/MSFP3'
+keywords:
+  - Sistema musculoesquelético
+  - Modelado matemático
+  - Función de transferencia
+  - Analogía electromecánica
+  - Control fisiológico
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2026-11-03'
