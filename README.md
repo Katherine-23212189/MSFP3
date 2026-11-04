@@ -200,18 +200,14 @@ $$
 Agrupando los términos que contienen $F_{s1}(s)$:
 
 $$
-\left(C_p s+C_s s+\frac{1}{R}\right)F_{s1}(s)
-=
-\left(C_s s+\frac{1}{R}\right)F(s)
+\left(C_p s+C_s s+\frac{1}{R}\right)F_{s1}(s) = \left(C_s s+\frac{1}{R}\right)F(s)
 $$
 
 
 Por lo tanto, la función de transferencia correspondiente a la primera contribución es:
 
 $$
-\frac{F_{s1}(s)}{F(s)}
-=
-\frac{C_s R s+1}{R(C_p+C_s)s+1}
+\frac{F_{s1}(s)}{F(s)} = \frac{C_s R s+1}{R(C_p+C_s)s+1}
 $$
 
 
@@ -227,29 +223,21 @@ $$
 La ecuación del circuito queda expresada como:
 
 $$
--\alpha F(t)
-=
-R\frac{dx(t)}{dt}
-+
-\frac{1}{C_p+C_s}\int x(t)\,dt
+-\alpha F(t) = R\frac{dx(t)}{dt} + \frac{1}{C_p+C_s}\int x(t)\,dt
 $$
 
 
 La contribución de la fuerza en esta rama se representa mediante:
 
 $$
-F_{s2}(t)
-=
-\frac{1}{C_p+C_s}\int x(t)\,dt
+F_{s2}(t) = \frac{1}{C_p+C_s}\int x(t)\,dt
 $$
 
 
 Aplicando la transformada de Laplace, con condiciones iniciales nulas:
 
 $$
--\alpha F(s)
-=
-R s X(s)+\frac{X(s)}{(C_p+C_s)s}
+-\alpha F(s) = R s X(s)+\frac{X(s)}{(C_p+C_s)s}
 $$
 
 
@@ -263,9 +251,7 @@ $$
 Al despejar la relación entre la segunda contribución y la entrada, se obtiene:
 
 $$
-\frac{F_{s2}(s)}{F(s)}
-=
--\frac{\alpha}{R(C_p+C_s)s+1}
+\frac{F_{s2}(s)}{F(s)} = -\frac{\alpha}{R(C_p+C_s)s+1}
 $$
 
 
@@ -281,11 +267,7 @@ $$
 Sustituyendo las expresiones anteriores:
 
 $$
-F_s(s)
-=
-\frac{C_s R s+1}{R(C_p+C_s)s+1}F(s)
--
-\frac{\alpha}{R(C_p+C_s)s+1}F(s)
+F_s(s) = \frac{C_s R s+1}{R(C_p+C_s)s+1}F(s) - \frac{\alpha}{R(C_p+C_s)s+1}F(s)
 $$
 
 
@@ -293,9 +275,7 @@ Por lo tanto, la función de transferencia del sistema musculoesquelético es:
 
 $$
 \boxed{
-\frac{F_s(s)}{F(s)}
-=
-\frac{C_s R s+1-\alpha}
+\frac{F_s(s)}{F(s)} = \frac{C_s R s+1-\alpha}
 {R(C_p+C_s)s+1}
 }
 $$
@@ -321,10 +301,7 @@ Los elementos de compliancia permiten representar la deformación elástica del 
 La función de transferencia obtenida es:
 
 $$
-\frac{F_s(s)}{F(s)}
-=
-\frac{C_s R s+1-\alpha}
-{R(C_p+C_s)s+1}
+\frac{F_s(s)}{F(s)} = \frac{C_s R s+1-\alpha} {R(C_p+C_s)s+1}
 $$
 
 
@@ -335,9 +312,7 @@ La combinación de estos elementos determina la respuesta del modelo ante la fue
 Para una entrada escalón unitario, el error en estado estacionario se obtiene mediante el teorema del valor final:
 
 $$
-e_{ss}
-=
-\lim_{s\to 0}
+e_{ss} = \lim_{s\to 0}
 s\left[
 \frac{1}{s}
 \left(
@@ -350,8 +325,7 @@ $$
 Sustituyendo la función de transferencia del sistema:
 
 $$
-e_{ss}
-=
+e_{ss} =
 \lim_{s\to 0}
 \left[
 1-
